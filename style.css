@@ -1,0 +1,403 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.amazon_header{
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    align-items: center
+}
+.amazon_logo img{
+    height: 40px;
+    position: relative;
+    top: 16px;
+    left: 12px;
+   
+}
+.amazon_logo span{
+    font-size: 16.5px;
+    color: #fff;
+    line-height: 14px;
+    font-family: inherit;
+    position: relative;
+    top: 14px;
+    left: 9px;  
+}
+.nav-location{
+    color: white;
+    position: relative;
+    left: 24px;
+    top: 12px;
+    font-size: 13px;
+}
+
+#fasion{
+    padding: 7px 10px;
+    position: relative;
+    left: 35px;
+    border-radius: 5px;
+    background: rgb(226, 224, 224);
+}
+.amazon_searchbar{
+    padding-top: 6px;
+    padding-left: 41px;
+    padding-right: 180px;
+    padding-bottom: 5px;
+    position: relative;
+    left: 29px;
+}
+.nav-btn{
+    background: rgb(243, 113, 7);
+    position: relative;
+    left: 25px;
+    padding: 8.5px;
+    border-radius: 2px;
+}
+.nav-right-content{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-right-1{
+    position: relative;
+    left: 70px;
+}
+.nav-right-2{
+    font-size: 13px;
+    position: relative;
+    left: 125px;
+
+}
+.nav-right-3{
+    position: relative;
+    left: 170px;
+    font-size: 13px;
+
+}
+.nav-right-4{
+    position: relative;
+    left: 200px;
+    font-size: 20px;
+}
+/* top headers */
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: none;
+    background-color: #232f3e;
+}
+.top_left{
+    display: flex;
+    
+}
+.top_left_items{
+    margin: 10px;
+    color: white;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1em;
+    position: relative;
+    padding: 8px;
+    
+}
+.top_left_items:hover{
+    outline: 2px solid white;
+    cursor:pointer ;
+}
+.top_right{
+    
+    padding-right: 70px;
+    font-size: 20px;
+    font-family: inherit;
+    color: white;
+    line-height: 1em;
+
+}
+.top_right span{
+    color: #d80c16;
+}
+/* navbar end========================== */
+.amazon_fashion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px;
+    background: #fafafa;
+}
+.amazon_head a{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    left: 10px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.amazon_head_items a{
+    color: black;
+    font-size: 15px;
+    font-family: inherit;
+}
+.day_returns span{
+    color: blue;
+    padding-right: 25px;
+    font-size: 20px;
+}
+/* =====================contents are there========================= */
+.whole_content{
+    display: flex;
+    align-items: center;
+}
+.cont_img p{
+    margin-left: 36px;
+}
+.cont_img img{
+    width: 100px;
+    margin-left: 17px;
+}
+/* =================================== */
+.sbi_bank{
+    padding: 10px 60px;
+    border: 1px solid lightslategray;
+    margin-left: 95px;
+    margin-right: 245px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.sbi_logo{
+    color: skyblue;
+    font-size: 20px;
+}
+.sbi_name{
+    color: darkblue;
+    font-size: 20px;
+}
+.sbi_name_bank{
+    color: skyblue;
+    font-size: 20px;
+}
+/* ================================ */
+.men_slide{
+    margin-top: 30px;
+}
+/* =============left side contents====================== */
+.prim_left span{
+    padding: 0px 10px;
+    border: 2px solid gray;
+    margin-left: 20px;
+
+}
+.prim_left img{
+    height: 20px;
+    width: 50px;
+}
+.brands_list{
+    padding-left: 16px;
+}
+/* =================================== */
+.shop_men{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+}
+.shop_men img{
+    height: 215px;
+    margin: 8px;
+}
+.adidas{
+    background-color: lightblue;
+}
+.top_brands{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: inherit;
+}
+.adidas_brands{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+    
+}
+.adidas_brands img{
+    height: 215px;
+    margin: 10px; 
+}
+/* ============================ */
+.amazon_brands_more{
+margin-top: 10px;
+}
+.brands_more{
+    background-color: lightgray;
+    padding: 10px 20px;
+}
+/* ================= */
+.amazon_extra_brands{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: lightsteelblue;
+    padding-top: 40px;
+}
+.amazon_extra_brands img{
+    height: 250px;
+    margin: 10px;
+
+}
+.amazon_don{
+    margin-top: 30px;
+    background: lightgreen;
+}
+.more_brands_content_extra{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.more_brands_content_extra img{
+    height: 200px;
+    margin: 10px;
+}
+/* check lists */
+.summer_check_list h3{
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.summer_check_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.summer_check_top img{
+    height: 250px;
+    margin: 10px;
+}
+.summer_check_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.summer_check_bottom img{
+    height: 250px;
+    margin: 10px;
+}
+/* budject finds */
+.budject_find{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BUDJECT h3{
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: inherit;
+
+}
+.budject_find img{
+    margin: 10px;
+    height: 230px;
+}
+.premium_brands_topic h3{
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: inherit; 
+}
+.premium_brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.premium_brands img{
+    margin: 10px;
+    height: 200px;
+}
+/* ================ */
+.results_men p{
+    font-size: 20px;
+    border: 1px solid gray;
+    padding-left: 74px;
+    border-radius: 10px;
+ 
+}
+.results_men span{
+    color: chocolate;
+}
+/* ==========card_headings=========== */
+.card_headings{
+    margin-top: 30px;
+}
+.card {
+
+}
+.card img{
+    height: 250px;
+    margin: auto;
+    margin-top: 8px;
+    width: 300px;
+
+}
+.card-body{
+    text-align: center;
+}
+.card_icon span i{
+    color: darkorange;
+}
+.card-body p{
+    color: black;
+}
+/* =============== */
+.seeallresults{ 
+    margin-top: 10px;
+    background-color: #eee!important;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px!important;
+    text-align: center;
+
+}
+/* ===========foot_head============== */
+#footer{
+    margin-top: 40px;
+}
+.foot_head{
+    color: #FFF;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 16px;
+    background-color: #37475A;
+}
+.footer_content{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+    padding-top: 60px;
+}
+.foot h3{
+    font-size: 16px;
+    color: white;
+    font-family: inherit;
+}
+.foot a{
+    font-family: inherit;
+    color: #DDD;
+    text-decoration: none;
+    line-height: 40px;
+    letter-spacing: 0.6px;
+   
+}
